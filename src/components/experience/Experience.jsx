@@ -47,6 +47,13 @@ const Experience = () => {
                 <small className="text-light">Junior</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Typescript</h4>
+                <small className="text-light">Junior</small>
+              </div>
+            </article>
           </div>
         </div>
         {/* END OF FRONTEND */}
@@ -65,7 +72,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>NodeJS</h4>
-                <small className="text-light">Trainee</small>
+                <small className="text-light">Junior</small>
               </div>
             </article>
             <article className="experience__details">
