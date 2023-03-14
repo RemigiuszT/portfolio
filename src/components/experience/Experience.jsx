@@ -15,14 +15,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>HTML</h4>
+                <h4>HTML5</h4>
                 <small className="text-light">Mid</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>CSS</h4>
+                <h4>SCSS</h4>
                 <small className="text-light">Mid</small>
               </div>
             </article>
@@ -54,6 +54,13 @@ const Experience = () => {
                 <small className="text-light">Junior</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Angular</h4>
+                <small className="text-light">Junior</small>
+              </div>
+            </article>
           </div>
         </div>
         {/* END OF FRONTEND */}
@@ -65,6 +72,13 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>PHP</h4>
+                <small className="text-light">Junior</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>NextJS</h4>
                 <small className="text-light">Junior</small>
               </div>
             </article>
