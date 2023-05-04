@@ -32,7 +32,7 @@ const data = [
     image: IMG4,
     title: "Terga (shooter-game)",
     github: "https://github.com/RemigiuszT/Terga",
-    demo: "https://terga-terek.up.railway.app",
+    demo: "https://terga-production.up.railway.app/",
   },
 ];
 
