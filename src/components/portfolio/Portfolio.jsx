@@ -1,10 +1,9 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/remflix.png";
-import IMG2 from "../../assets/todo.png";
+import IMG2 from "../../assets/hangmi.png";
 import IMG3 from "../../assets/fanrec.png";
 import IMG4 from "../../assets/shooter.png";
-import IMG5 from "../../assets/hangmi.png";
 
 const data = [
   {
@@ -17,9 +16,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Todo",
-    github: "https://github.com/RemigiuszT/Todo",
-    demo: "https://remitodolist.netlify.app/",
+    title: "Hangman angular project",
+    github: "https://github.com/RemigiuszT/Hangmi",
+    demo: "https://hangmi.netlify.app/",
   },
   {
     id: 3,
@@ -34,13 +33,6 @@ const data = [
     title: "Terga (shooter-game)",
     github: "https://github.com/RemigiuszT/Terga",
     demo: "https://terga-production.up.railway.app/",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Hangman angular project",
-    github: "https://github.com/RemigiuszT/Hangmi",
-    demo: "https://hangmi.netlify.app/",
   },
 ];
 
