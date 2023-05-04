@@ -4,6 +4,7 @@ import IMG1 from "../../assets/remflix.png";
 import IMG2 from "../../assets/todo.png";
 import IMG3 from "../../assets/fanrec.png";
 import IMG4 from "../../assets/shooter.png";
+import IMG5 from "../../assets/hangmi.png";
 
 const data = [
   {
@@ -33,6 +34,13 @@ const data = [
     title: "Terga (shooter-game)",
     github: "https://github.com/RemigiuszT/Terga",
     demo: "https://terga-production.up.railway.app/",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "Hangman angular project",
+    github: "https://github.com/RemigiuszT/Hangmi",
+    demo: "https://hangmi.netlify.app/",
   },
 ];
 
