@@ -28,6 +28,7 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
+  margin-left: 10px;
 }
 
 .header__socials::after {

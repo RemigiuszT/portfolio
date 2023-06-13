@@ -37,12 +37,6 @@ const Contact = () => {
             <a href="https://m.me/remigiusz.terek" target="_blank">Send a message</a>
           </article>
 
-          <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon"/>
-            <h4>Instagram</h4>
-            <h5>Remczok</h5>
-            <a href="https://www.instagram.com/remczok" target="_blank">Send a message</a>
-          </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>

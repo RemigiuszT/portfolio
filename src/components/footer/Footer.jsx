@@ -3,6 +3,7 @@ import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {FiGithub} from 'react-icons/fi'
+import { BsLinkedin } from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -23,6 +24,7 @@ const Footer = () => {
         <a href="https://www.facebook.com/remigiusz.terek"><FaFacebookF/></a>
         <a href="https://www.instagram.com/remczok/"><FiInstagram/></a>
         <a href="https://github.com/RemigiuszT"><FiGithub/></a>
+        <a href="https://www.linkedin.com/in/remigiusz-terek-b6266b230/"><BsLinkedin /></a>
       </div>
 
       <div className="footer__copyright">
