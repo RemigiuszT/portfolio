@@ -1,10 +1,14 @@
 import React from "react";
-import recommendation from "../../assets/recommendation.pdf";
 
 const TCTA = () => {
   return (
-    <a href={recommendation} download className="btn">
-      Download recommendation
+    <a
+      href="https://www.linkedin.com/in/remigiusz-terek-b6266b230/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn"
+    >
+      View Recommendations
     </a>
   );
 };

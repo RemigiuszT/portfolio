@@ -23,13 +23,13 @@ const about = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2 years</small>
+              <small>+2 years</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>6</small>
+              <small>8</small>
             </article>
 
             <article className="about__card">
@@ -40,7 +40,7 @@ const about = () => {
           </div>
 
           <p>
-            I am an ambitious 2nd year student of IT in business who puts the
+            I am an ambitious 3nd year student of IT in business who puts the
             quality and independence of software development in the first place.
             I am passionate about developing front-end applications. I am very
             eager to expand my knowledge through training and mentoring. I have

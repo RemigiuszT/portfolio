@@ -6,106 +6,112 @@ const Services = () => {
   return (
     <section id="services">
       <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h2>Professional Services</h2>
 
       <div className="container services__container">
+        {/* Dynamic Front-End Development */}
         <article className="service">
           <div className="service__head">
-            <h3>Teaching programming and Business</h3>
+            <h3>Dynamic Front-End Development</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Teaching programming in python</p>
+              <p>Expertise in React, Redux, and Angular for responsive UIs</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Teaching programming in scratch</p>
+              <p>Advanced styling with CSS3, SCSS, Tailwind, and Bootstrap</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Teaching programming with lua</p>
+              <p>Building scalable and SEO-friendly web applications</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Creating events for students from around the Poland</p>
+              <p>Integrating RESTful APIs and managing state with Redux</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Building realtions with clients</p>
+              <p>Developing ecommerce platforms and custom solutions</p>
             </li>
           </ul>
         </article>
-        {/* END OF UI/UX */}
 
+        {/* Collaborative Software Development */}
         <article className="service">
           <div className="service__head">
-            <h3>Front-end apps</h3>
+            <h3>Collaborative Software Development</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Creating websites from scratch with html5 and css3</p>
+              <p>
+                Building modern full-stack applications with NodeJS and
+                ExpressJS
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Creating websites with React , js/ts from scratch</p>
+              <p>Utilizing MongoDB and SQL for robust data management</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Styling websites with advanced css</p>
+              <p>Implementing microservices and containerization with Docker</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Styling websites with bootstrap/tailwind</p>
+              <p>
+                Effective team collaboration using Git, JIRA, and Agile
+                methodologies
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Cooperate with other developers on projects</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Creating websites with api and database</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Building Own Portfolio</p>
+              <p>
+                Developing and optimizing performance for large-scale projects
+              </p>
             </li>
           </ul>
         </article>
-        {/* END OF WEB DEVELOPMENT */}
 
+        {/* Education and Mentoring */}
         <article className="service">
           <div className="service__head">
-            <h3>Full-stack apps</h3>
+            <h3>Education and Mentoring</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Working with businessgraphs and relations</p>
+              <p>Leading Python, Lua, and Scratch programming courses</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Upgrade id-card system for commerce project</p>
+              <p>
+                Conducting workshops and events for IT enthusiasts across Poland
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Create forms and chat</p>
+              <p>Mentoring individuals and groups in front-end technologies</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Building Netflix mechanism</p>
+              <p>
+                Sharing insights on UI/UX design principles and best practices
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Building Collaborating Project nextjs</p>
+              <p>
+                Building strong client relationships and communication skills
+              </p>
             </li>
           </ul>
         </article>
-        {/* END OF Creating apps */}
       </div>
     </section>
   );
